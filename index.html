@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <section class="hero">
+      <nav>
+        <ul>
+          <li>
+            <a
+              ><span class="material-symbols-outlined shopping-bag"> shopping_bag <span class="bagNotif">0</span> </span></a
+            >
+          </li>
+          <li><a href="#">BERANDA</a></li>
+          <li><a href="#">TENTANG KAMI</a></li>
+          <li><a href="#">PRODUK</a></li>
+          <li><a href="#">KONTAK</a></li>
+        </ul>
+      </nav>
+      <div class="jumbotron">
+        <img src="image/jumbotron.jpg" alt="" />
+        <h1>BELANJA DI SINI AJA</h1>
+      </div>
+    </section>
+
+    <section class="produkContainer">
+      <h1>PRODUK KAMI</h1>
+      <div class="produk-box">
+        <div class="produk">
+          <h1 class="title">BAJU</h1>
+          <img src="image/baju.png" alt="" />
+          <div class="itemDesc">
+            <div>Rp. <span class="hargaProduk">20.000</span></div>
+            <button class="addtoCart" type="button">Tambah</button>
+          </div>
+        </div>
+        <div class="produk">
+          <h1 class="title">CELANA</h1>
+          <img src="image/topi.png" alt="" />
+          <div class="itemDesc">
+            <div>Rp. <span class="hargaProduk">10.000</span></div>
+            <button class="addtoCart" type="button">Tambah</button>
+          </div>
+        </div>
+        <div class="produk">
+          <h1 class="title">TAS</h1>
+          <img src="image/baju.png" alt="" />
+          <div class="itemDesc">
+            <div>Rp. <span class="hargaProduk">100.000</span></div>
+            <button class="addtoCart" type="button">Tambah</button>
+          </div>
+        </div>
+        <div class="produk">
+          <h1 class="title">TOPI</h1>
+          <img src="image/topi.png" alt="" />
+          <div class="itemDesc">
+            <div>Rp. <span class="hargaProduk">35.000</span></div>
+            <button class="addtoCart" type="button">Tambah</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="itemCart">
+      <h1>KERANJANGMU</h1>
+
+      <div class="cartFooter">
+        <div class="total">Rp. 0</div>
+        <button type="button" class="beli">BELI</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
